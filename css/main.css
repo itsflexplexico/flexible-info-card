@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  background-color: #ccc;
+  color: #000;
 }
 
 *, *::before, *::after {
@@ -7,6 +9,56 @@ html {
 }
 
 body {
-  line-height: 1.5;
   margin: 0;
+}
+
+section {
+  padding: 2rem;
+}
+
+h2 {
+  text-align: center;
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 1.5rem;
+}
+
+img {
+  width: 5em;
+  margin-right: 1.5rem;
+}
+
+hgroup {
+  width: 16rem;
+}
+
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  max-width: 24rem;
+  margin: 0 auto 0 0;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #444;
+  padding: .5rem 1rem .6rem;
 }
